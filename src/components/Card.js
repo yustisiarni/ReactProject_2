@@ -4,7 +4,7 @@ export default function Card(props){
     const one = props
     return(
        <section className="card">
-            <img src={one.imageUrl}/>
+            <img src={one.imageUrl} alt="locationPic"/>
             <div className="card--text">
                 <div >
                     <i className="fa-solid fa-location-dot locIcon" ></i>

@@ -1,4 +1,4 @@
-export default [
+export let data =[
     {
         id:1,
         title: "Mount Fuji",
