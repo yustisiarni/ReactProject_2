@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    font-family: 'Inter';
+}
+
+a{
+    text-decoration: none;
+}
+
+.Nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: #F55A5A;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    color: white;
+}
+
+.Nav>i{
+    font-size: 24px;
+    margin-right: 7px;;
+}
+
+.Nav>span{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.4608px;
+    line-height: 18px;
+    letter-spacing: -0.030em;
+}
+
+.card{
+    margin:40px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.card>img{
+    /* position: absolute; */
+    height: 168px;
+    width: 125px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card--text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 14px;
+}
+.locIcon{
+    font-size: 10px;
+    color: #F55A5A;
+    margin-right: 4px;
+}
+.map--loc{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+}
+
+.grey{
+    color:#918E9B;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    text-decoration-line: underline;
+    margin-left: 12px;
+}
+
+.card--title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;
+    margin-top: 7px;
+    margin-bottom: 15px;
+}
+.card--date{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #2B283A;
+    margin-top: 7px;
+}
+
+
+.card--description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* or 15px */
+    max-width: 326px;
+    
+    color: #2B283A;
+}
